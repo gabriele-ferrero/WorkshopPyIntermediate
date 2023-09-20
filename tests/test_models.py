@@ -19,7 +19,7 @@ def test_daily_max_zeros():
 
 
 def test_daily_max_integers():
-    """Test that mean function works for an array of positive integers."""
+    """Test that mean function works for an array of positive integers. """
     from inflammation.models import daily_max
 
     test_input = np.array([[1, 2],
